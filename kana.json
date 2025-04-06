@@ -1,0 +1,556 @@
+{
+  "kanaAssociations": [
+    {
+      "kana": {
+        "hiragana": "あ",
+        "katakana": "ア"
+      },
+      "word": {
+        "hiragana": "あぼかど",
+        "katakana": "アボカド"
+      },
+      "description": "avocat - abokado",
+      "emoji": "🥑"
+    },
+    {
+      "kana": {
+        "hiragana": "い",
+        "katakana": "イ"
+      },
+      "word": {
+        "hiragana": "いちご",
+        "katakana": "イチゴ"
+      },
+      "description": "fraise - ichigo",
+      "emoji": "🍓"
+    },
+    {
+      "kana": {
+        "hiragana": "う",
+        "katakana": "ウ"
+      },
+      "word": {
+        "hiragana": "うどん",
+        "katakana": "ウドン"
+      },
+      "description": "nouilles udon - udon",
+      "emoji": "🍜"
+    },
+    {
+      "kana": {
+        "hiragana": "え",
+        "katakana": "エ"
+      },
+      "word": {
+        "hiragana": "えのき",
+        "katakana": "エノキ"
+      },
+      "description": "enoki (champignon) - enoki",
+      "emoji": "🍄"
+    },
+    {
+      "kana": {
+        "hiragana": "お",
+        "katakana": "オ"
+      },
+      "word": {
+        "hiragana": "おれんじ",
+        "katakana": "オレンジ"
+      },
+      "description": "orange - orenji",
+      "emoji": "🍊"
+    },
+    {
+      "kana": {
+        "hiragana": "か",
+        "katakana": "カ"
+      },
+      "word": {
+        "hiragana": "かぼちゃ",
+        "katakana": "カボチャ"
+      },
+      "description": "potiron - kabocha",
+      "emoji": "🎃"
+    },
+    {
+      "kana": {
+        "hiragana": "き",
+        "katakana": "キ"
+      },
+      "word": {
+        "hiragana": "きうい",
+        "katakana": "キウイ"
+      },
+      "description": "kiwi - kiui",
+      "emoji": "🥝"
+    },
+    {
+      "kana": {
+        "hiragana": "く",
+        "katakana": "ク"
+      },
+      "word": {
+        "hiragana": "くり",
+        "katakana": "クリ"
+      },
+      "description": "châtaigne - kuri",
+      "emoji": "🌰"
+    },
+    {
+      "kana": {
+        "hiragana": "け",
+        "katakana": "ケ"
+      },
+      "word": {
+        "hiragana": "けーき",
+        "katakana": "ケーキ"
+      },
+      "description": "gâteau - keeki",
+      "emoji": "🍰"
+    },
+    {
+      "kana": {
+        "hiragana": "こ",
+        "katakana": "コ"
+      },
+      "word": {
+        "hiragana": "こめ",
+        "katakana": "コメ"
+      },
+      "description": "riz - kome",
+      "emoji": "🍚"
+    },
+    {
+      "kana": {
+        "hiragana": "さ",
+        "katakana": "サ"
+      },
+      "word": {
+        "hiragana": "さくらんぼ",
+        "katakana": "サクランボ"
+      },
+      "description": "cerise - sakuranbo",
+      "emoji": "🍒"
+    },
+    {
+      "kana": {
+        "hiragana": "し",
+        "katakana": "シ"
+      },
+      "word": {
+        "hiragana": "しそ",
+        "katakana": "シソ"
+      },
+      "description": "perilla - shiso",
+      "emoji": "🌿"
+    },
+    {
+      "kana": {
+        "hiragana": "す",
+        "katakana": "ス"
+      },
+      "word": {
+        "hiragana": "すいか",
+        "katakana": "スイカ"
+      },
+      "description": "pastèque - suika",
+      "emoji": "🍉"
+    },
+    {
+      "kana": {
+        "hiragana": "せ",
+        "katakana": "セ"
+      },
+      "word": {
+        "hiragana": "せろり",
+        "katakana": "セロリ"
+      },
+      "description": "céleri - serori",
+      "emoji": "🥬"
+    },
+    {
+      "kana": {
+        "hiragana": "そ",
+        "katakana": "ソ"
+      },
+      "word": {
+        "hiragana": "そらまめ",
+        "katakana": "ソラマメ"
+      },
+      "description": "fèves - soramame",
+      "emoji": "🫘"
+    },
+    {
+      "kana": {
+        "hiragana": "た",
+        "katakana": "タ"
+      },
+      "word": {
+        "hiragana": "たまご",
+        "katakana": "タマゴ"
+      },
+      "description": "œuf - tamago",
+      "emoji": "🍳"
+    },
+    {
+      "kana": {
+        "hiragana": "ち",
+        "katakana": "チ"
+      },
+      "word": {
+        "hiragana": "ちんげんさい",
+        "katakana": "チンゲンサイ"
+      },
+      "description": "bok choy - chingensai",
+      "emoji": "🥬"
+    },
+    {
+      "kana": {
+        "hiragana": "つ",
+        "katakana": "ツ"
+      },
+      "word": {
+        "hiragana": "つくね",
+        "katakana": "ツクネ"
+      },
+      "description": "boulette de poulet - tsukune",
+      "emoji": "🍢"
+    },
+    {
+      "kana": {
+        "hiragana": "て",
+        "katakana": "テ"
+      },
+      "word": {
+        "hiragana": "てんぷら",
+        "katakana": "テンプラ"
+      },
+      "description": "tempura - tenpura",
+      "emoji": "🍤"
+    },
+    {
+      "kana": {
+        "hiragana": "と",
+        "katakana": "ト"
+      },
+      "word": {
+        "hiragana": "とまと",
+        "katakana": "トマト"
+      },
+      "description": "tomate - tomato",
+      "emoji": "🍅"
+    },
+    {
+      "kana": {
+        "hiragana": "な",
+        "katakana": "ナ"
+      },
+      "word": {
+        "hiragana": "なす",
+        "katakana": "ナス"
+      },
+      "description": "aubergine - nasu",
+      "emoji": "🍆"
+    },
+    {
+      "kana": {
+        "hiragana": "に",
+        "katakana": "ニ"
+      },
+      "word": {
+        "hiragana": "にんじん",
+        "katakana": "ニンジン"
+      },
+      "description": "carotte - ninjin",
+      "emoji": "🥕"
+    },
+    {
+      "kana": {
+        "hiragana": "ぬ",
+        "katakana": "ヌ"
+      },
+      "word": {
+        "hiragana": "ぬかづけ",
+        "katakana": "ヌカヅケ"
+      },
+      "description": "pickles (au son de bran de riz) - nukazuke",
+      "emoji": "🥗"
+    },
+    {
+      "kana": {
+        "hiragana": "ね",
+        "katakana": "ネ"
+      },
+      "word": {
+        "hiragana": "ねぎ",
+        "katakana": "ネギ"
+      },
+      "description": "ciboule/poireau - negi",
+      "emoji": "🥬"
+    },
+    {
+      "kana": {
+        "hiragana": "の",
+        "katakana": "ノ"
+      },
+      "word": {
+        "hiragana": "のり",
+        "katakana": "ノリ"
+      },
+      "description": "algue - nori",
+      "emoji": "🍙"
+    },
+    {
+      "kana": {
+        "hiragana": "は",
+        "katakana": "ハ"
+      },
+      "word": {
+        "hiragana": "はくさい",
+        "katakana": "ハクサイ"
+      },
+      "description": "chou chinois - hakusai",
+      "emoji": "🥬"
+    },
+    {
+      "kana": {
+        "hiragana": "ひ",
+        "katakana": "ヒ"
+      },
+      "word": {
+        "hiragana": "ひじき",
+        "katakana": "ヒジキ"
+      },
+      "description": "algue hijiki - hijiki",
+      "emoji": "🌿"
+    },
+    {
+      "kana": {
+        "hiragana": "ふ",
+        "katakana": "フ"
+      },
+      "word": {
+        "hiragana": "ふじりんご",
+        "katakana": "フジリンゴ"
+      },
+      "description": "Fuji, pomme - fujiringo",
+      "emoji": "🍎"
+    },
+    {
+      "kana": {
+        "hiragana": "へ",
+        "katakana": "ヘ"
+      },
+      "word": {
+        "hiragana": "へちま",
+        "katakana": "ヘチマ"
+      },
+      "description": "jicama - hechima",
+      "emoji": "🥒"
+    },
+    {
+      "kana": {
+        "hiragana": "ほ",
+        "katakana": "ホ"
+      },
+      "word": {
+        "hiragana": "ほうれんそう",
+        "katakana": "ホウレンソウ"
+      },
+      "description": "épinards - hourensou",
+      "emoji": "🥬"
+    },
+    {
+      "kana": {
+        "hiragana": "ま",
+        "katakana": "マ"
+      },
+      "word": {
+        "hiragana": "まんごー",
+        "katakana": "マンゴー"
+      },
+      "description": "mangue - mango",
+      "emoji": "🥭"
+    },
+    {
+      "kana": {
+        "hiragana": "み",
+        "katakana": "ミ"
+      },
+      "word": {
+        "hiragana": "みかん",
+        "katakana": "ミカン"
+      },
+      "description": "mandarine - mikan",
+      "emoji": "🍊"
+    },
+    {
+      "kana": {
+        "hiragana": "む",
+        "katakana": "ム"
+      },
+      "word": {
+        "hiragana": "むぎ",
+        "katakana": "ムギ"
+      },
+      "description": "blé - mugi",
+      "emoji": "🌾"
+    },
+    {
+      "kana": {
+        "hiragana": "め",
+        "katakana": "メ"
+      },
+      "word": {
+        "hiragana": "めろん",
+        "katakana": "メロン"
+      },
+      "description": "melon - meron",
+      "emoji": "🍈"
+    },
+    {
+      "kana": {
+        "hiragana": "も",
+        "katakana": "モ"
+      },
+      "word": {
+        "hiragana": "もも",
+        "katakana": "モモ"
+      },
+      "description": "pêche - momo",
+      "emoji": "🍑"
+    },
+    {
+      "kana": {
+        "hiragana": "や",
+        "katakana": "ヤ"
+      },
+      "word": {
+        "hiragana": "やまいも",
+        "katakana": "ヤマイモ"
+      },
+      "description": "igname - yamaimo",
+      "emoji": "🍠"
+    },
+    {
+      "kana": {
+        "hiragana": "ゆ",
+        "katakana": "ユ"
+      },
+      "word": {
+        "hiragana": "ゆず",
+        "katakana": "ユズ"
+      },
+      "description": "yuzu - yuzu",
+      "emoji": "🍋"
+    },
+    {
+      "kana": {
+        "hiragana": "よ",
+        "katakana": "ヨ"
+      },
+      "word": {
+        "hiragana": "ようかん",
+        "katakana": "ヨウカン"
+      },
+      "description": "yōkan, confiserie aux haricots rouges - youkan",
+      "emoji": "🍮"
+    },
+    {
+      "kana": {
+        "hiragana": "ら",
+        "katakana": "ラ"
+      },
+      "word": {
+        "hiragana": "らずべりー",
+        "katakana": "ラズベリー"
+      },
+      "description": "framboise - razuberi",
+      "emoji": "🍇"
+    },
+    {
+      "kana": {
+        "hiragana": "り",
+        "katakana": "リ"
+      },
+      "word": {
+        "hiragana": "りんご",
+        "katakana": "リンゴ"
+      },
+      "description": "pomme - ringo",
+      "emoji": "🍎"
+    },
+    {
+      "kana": {
+        "hiragana": "る",
+        "katakana": "ル"
+      },
+      "word": {
+        "hiragana": "るばーぶ",
+        "katakana": "ルバーブ"
+      },
+      "description": "rhubarbe - rubabu",
+      "emoji": "🍏"
+    },
+    {
+      "kana": {
+        "hiragana": "れ",
+        "katakana": "レ"
+      },
+      "word": {
+        "hiragana": "れんこん",
+        "katakana": "レンコン"
+      },
+      "description": "racine de lotus - renkon",
+      "emoji": "🥔"
+    },
+    {
+      "kana": {
+        "hiragana": "ろ",
+        "katakana": "ロ"
+      },
+      "word": {
+        "hiragana": "ろーるきゃべつ",
+        "katakana": "ロールキャベツ"
+      },
+      "description": "choux farcis - roorukyabetsu",
+      "emoji": "🍽"
+    },
+    {
+      "kana": {
+        "hiragana": "わ",
+        "katakana": "ワ"
+      },
+      "word": {
+        "hiragana": "わさび",
+        "katakana": "ワサビ"
+      },
+      "description": "wasabi - wasabi",
+      "emoji": "🌶"
+    },
+    {
+      "kana": {
+        "hiragana": "を",
+        "katakana": "ヲ"
+      },
+      "word": {
+        "hiragana": "おこのみやき",
+        "katakana": "オコノミヤキ"
+      },
+      "description": "okonomiyaki - okonomiyaki",
+      "emoji": "🍽"
+    },
+    {
+      "kana": {
+        "hiragana": "ん",
+        "katakana": "ン"
+      },
+      "word": {
+        "hiragana": "",
+        "katakana": ""
+      },
+      "description": "aucune association, car il ne débute pas de mot",
+      "emoji": "❓"
+    }
+  ]
+}
