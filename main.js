@@ -50,11 +50,11 @@ if ('serviceWorker' in navigator) {
       buttonContainer.className = "button-container";
   
       const hiraganaBtn = document.createElement("button");
-      hiraganaBtn.textContent = "ひらがな";
+      hiraganaBtn.textContent = "😆 ひらがな";
       hiraganaBtn.onclick = () => startGame("hiragana");
   
       const katakanaBtn = document.createElement("button");
-      katakanaBtn.textContent = "カタカナ";
+      katakanaBtn.textContent = "👺🆘 カタカナ  ";
       katakanaBtn.onclick = () => startGame("katakana");
   
       buttonContainer.appendChild(hiraganaBtn);
