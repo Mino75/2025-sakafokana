@@ -43,7 +43,7 @@ const css = `
     font-size: 1.5rem;
   }
   .emoji {
-    font-size:20rem;
+    font-size:10rem;
     display: block;
     margin-bottom: 10px;
   }
