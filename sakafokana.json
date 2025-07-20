@@ -1,0 +1,510 @@
+{
+  "kanaEntries": [
+    {
+      "kana": {
+        "hiragana": "あ",
+        "katakana": "ア"
+      },
+      "chinesePronunciationCharacter": "啊",
+      "chineseOriginCharacter": "安",
+      "foodsentence1": "啊，我们吃火锅",
+      "emoji": "🍲",
+      "foodsentence2": "啊，火锅真香"
+    },
+    {
+      "kana": {
+        "hiragana": "い",
+        "katakana": "イ"
+      },
+      "chinesePronunciationCharacter": "衣",
+      "chineseOriginCharacter": "伊",
+      "foodsentence1": "衣上有豆腐",
+      "emoji": "🥣",
+      "foodsentence2": "衣上滴着汤汁"
+    },
+    {
+      "kana": {
+        "hiragana": "う",
+        "katakana": "ウ"
+      },
+      "chinesePronunciationCharacter": "乌",
+      "chineseOriginCharacter": "宇",
+      "foodsentence1": "乌冬面",
+      "emoji": "🍜",
+      "foodsentence2": "乌冬面很好吃"
+    },
+    {
+      "kana": {
+        "hiragana": "え",
+        "katakana": "エ"
+      },
+      "chinesePronunciationCharacter": "饿",
+      "chineseOriginCharacter": "衣",
+      "foodsentence1": "饿了，吃米饭",
+      "emoji": "🍚",
+      "foodsentence2": "饿的时候吃米饭"
+    },
+    {
+      "kana": {
+        "hiragana": "お",
+        "katakana": "オ"
+      },
+      "chinesePronunciationCharacter": "哦",
+      "chineseOriginCharacter": "於",
+      "foodsentence1": "哦，我要喝茶",
+      "emoji": "🍵",
+      "foodsentence2": "哦，茶香扑鼻"
+    },
+    {
+      "kana": {
+        "hiragana": "か",
+        "katakana": "カ"
+      },
+      "chinesePronunciationCharacter": "卡",
+      "chineseOriginCharacter": "加",
+      "foodsentence1": "卡布奇诺",
+      "emoji": "☕",
+      "foodsentence2": "卡布奇诺要加奶沫"
+    },
+    {
+      "kana": {
+        "hiragana": "き",
+        "katakana": "キ"
+      },
+      "chinesePronunciationCharacter": "机",
+      "chineseOriginCharacter": "幾",
+      "foodsentence1": "机上有面包",
+      "emoji": "🍞",
+      "foodsentence2": "机柜里摆着面包"
+    },
+    {
+      "kana": {
+        "hiragana": "く",
+        "katakana": "ク"
+      },
+      "chinesePronunciationCharacter": "枯",
+      "chineseOriginCharacter": "久",
+      "foodsentence1": "枯木上有蜂蜜",
+      "emoji": "🍯",
+      "foodsentence2": "枯木缝里藏着蜂蜜"
+    },
+    {
+      "kana": {
+        "hiragana": "け",
+        "katakana": "ケ"
+      },
+      "chinesePronunciationCharacter": "可",
+      "chineseOriginCharacter": "計",
+      "foodsentence1": "可乐鸡翅",
+      "emoji": "🍗",
+      "foodsentence2": "可乐鸡翅配啤酒"
+    },
+    {
+      "kana": {
+        "hiragana": "こ",
+        "katakana": "コ"
+      },
+      "chinesePronunciationCharacter": "古",
+      "chineseOriginCharacter": "己",
+      "foodsentence1": "古老肉",
+      "emoji": "🍖",
+      "foodsentence2": "古法烟熏肉"
+    },
+    {
+      "kana": {
+        "hiragana": "さ",
+        "katakana": "サ"
+      },
+      "chinesePronunciationCharacter": "萨",
+      "chineseOriginCharacter": "左",
+      "foodsentence1": "萨其马",
+      "emoji": "🍪",
+      "foodsentence2": "萨其马甜而酥脆"
+    },
+    {
+      "kana": {
+        "hiragana": "し",
+        "katakana": "シ"
+      },
+      "chinesePronunciationCharacter": "师",
+      "chineseOriginCharacter": "之",
+      "foodsentence1": "师傅做牛肉面",
+      "emoji": "🥡",
+      "foodsentence2": "师傅打包外卖"
+    },
+    {
+      "kana": {
+        "hiragana": "す",
+        "katakana": "ス"
+      },
+      "chinesePronunciationCharacter": "苏",
+      "chineseOriginCharacter": "須",
+      "foodsentence1": "苏式月饼",
+      "emoji": "🥮",
+      "foodsentence2": "苏式月饼满是豆沙"
+    },
+    {
+      "kana": {
+        "hiragana": "せ",
+        "katakana": "セ"
+      },
+      "chinesePronunciationCharacter": "色",
+      "chineseOriginCharacter": "世",
+      "foodsentence1": "色拉",
+      "emoji": "🥗",
+      "foodsentence2": "色拉清爽可口"
+    },
+    {
+      "kana": {
+        "hiragana": "そ",
+        "katakana": "ソ"
+      },
+      "chinesePronunciationCharacter": "搜",
+      "chineseOriginCharacter": "曽",
+      "foodsentence1": "搜罗寿司",
+      "emoji": "🍣",
+      "foodsentence2": "搜罗新鲜寿司"
+    },
+    {
+      "kana": {
+        "hiragana": "た",
+        "katakana": "タ"
+      },
+      "chinesePronunciationCharacter": "他",
+      "chineseOriginCharacter": "太",
+      "foodsentence1": "他喝奶茶",
+      "emoji": "🧋",
+      "foodsentence2": "他最爱珍珠奶茶"
+    },
+    {
+      "kana": {
+        "hiragana": "ち",
+        "katakana": "チ"
+      },
+      "chinesePronunciationCharacter": "七",
+      "chineseOriginCharacter": "知",
+      "foodsentence1": "七分熟牛排",
+      "emoji": "🥩",
+      "foodsentence2": "七分熟牛排多汁"
+    },
+    {
+      "kana": {
+        "hiragana": "つ",
+        "katakana": "ツ"
+      },
+      "chinesePronunciationCharacter": "粗",
+      "chineseOriginCharacter": "津",
+      "foodsentence1": "粗粮",
+      "emoji": "🍞",
+      "foodsentence2": "粗粮面包营养丰富"
+    },
+    {
+      "kana": {
+        "hiragana": "て",
+        "katakana": "テ"
+      },
+      "chinesePronunciationCharacter": "特",
+      "chineseOriginCharacter": "天",
+      "foodsentence1": "特辣火锅",
+      "emoji": "🥘",
+      "foodsentence2": "特制砂锅炖菜"
+    },
+    {
+      "kana": {
+        "hiragana": "と",
+        "katakana": "ト"
+      },
+      "chinesePronunciationCharacter": "托",
+      "chineseOriginCharacter": "戶",
+      "foodsentence1": "托盘里有点心",
+      "emoji": "🥟",
+      "foodsentence2": "托盘盛着京式饺子"
+    },
+    {
+      "kana": {
+        "hiragana": "な",
+        "katakana": "ナ"
+      },
+      "chinesePronunciationCharacter": "那",
+      "chineseOriginCharacter": "奈",
+      "foodsentence1": "那，想吃玉米饼",
+      "emoji": "🫔",
+      "foodsentence2": "那玉米饼真香"
+   },
+    {
+      "kana": {
+        "hiragana": "に",
+        "katakana": "ニ"
+      },
+      "chinesePronunciationCharacter": "尼",
+      "chineseOriginCharacter": "仁",
+      "foodsentence1": "尼罗河鱼",
+      "emoji": "🍤",
+      "foodsentence2": "尼罗河鱼鲜美"
+    },
+    {
+      "kana": {
+        "hiragana": "ぬ",
+        "katakana": "ヌ"
+      },
+      "chinesePronunciationCharacter": "怒",
+      "chineseOriginCharacter": "奴",
+      "foodsentence1": "怒了想吃烤肉",
+      "emoji": "🍖",
+      "foodsentence2": "怒吃烤肉"
+    },
+    {
+      "kana": {
+        "hiragana": "ね",
+        "katakana": "ネ"
+      },
+      "chinesePronunciationCharacter": "嫩",
+      "chineseOriginCharacter": "祢",
+      "foodsentence1": "嫩豆腐",
+      "emoji": "🍲",
+      "foodsentence2": "嫩豆腐入口即化"
+    },
+    {
+      "kana": {
+        "hiragana": "の",
+        "katakana": "ノ"
+      },
+      "chinesePronunciationCharacter": "诺",
+      "chineseOriginCharacter": "乃",
+      "foodsentence1": "诺曼牛排",
+      "emoji": "🍛",
+      "foodsentence2": "诺曼牛排加奶油"
+    },
+    {
+      "kana": {
+        "hiragana": "は",
+        "katakana": "ハ"
+      },
+      "chinesePronunciationCharacter": "哈",
+      "chineseOriginCharacter": "波",
+      "foodsentence1": "哈根达斯",
+      "emoji": "🍨",
+      "foodsentence2": "哈根达斯冰淇淋入口即化"
+    },
+    {
+      "kana": {
+        "hiragana": "ひ",
+        "katakana": "ヒ"
+      },
+      "chinesePronunciationCharacter": "希",
+      "chineseOriginCharacter": "比",
+      "foodsentence1": "希腊沙拉",
+      "emoji": "🫕",
+      "foodsentence2": "希腊沙拉加橄榄油"
+    },
+    {
+      "kana": {
+        "hiragana": "ふ",
+        "katakana": "フ"
+      },
+      "chinesePronunciationCharacter": "夫",
+      "chineseOriginCharacter": "不",
+      "foodsentence1": "夫妻肺片",
+      "emoji": "🥓",
+      "foodsentence2": "夫烤培根配鸡蛋"
+    },
+    {
+      "kana": {
+        "hiragana": "へ",
+        "katakana": "ヘ"
+      },
+      "chinesePronunciationCharacter": "河",
+      "chineseOriginCharacter": "部",
+      "foodsentence1": "河粉",
+      "emoji": "🍜",
+      "foodsentence2": "河粉滑嫩入味"
+    },
+    {
+      "kana": {
+        "hiragana": "ほ",
+        "katakana": "ホ"
+      },
+      "chinesePronunciationCharacter": "呼",
+      "chineseOriginCharacter": "保",
+      "foodsentence1": "呼伦贝尔牛肉干",
+      "emoji": "🥩",
+      "foodsentence2": "呼伦贝尔牛肉干嚼劲十足"
+    },
+    {
+      "kana": {
+        "hiragana": "ま",
+        "katakana": "マ"
+      },
+      "chinesePronunciationCharacter": "妈",
+      "chineseOriginCharacter": "万",
+      "foodsentence1": "妈妈菜",
+      "emoji": "🥘",
+      "foodsentence2": "妈妈菜让我想家"
+    },
+    {
+      "kana": {
+        "hiragana": "み",
+        "katakana": "ミ"
+      },
+      "chinesePronunciationCharacter": "咪",
+      "chineseOriginCharacter": "美",
+      "foodsentence1": "米奇咖啡",
+      "emoji": "☕",
+      "foodsentence2": "咪拿铁更香浓"
+    },
+    {
+      "kana": {
+        "hiragana": "む",
+        "katakana": "ム"
+      },
+      "chinesePronunciationCharacter": "木",
+      "chineseOriginCharacter": "武",
+      "foodsentence1": "木须肉",
+      "emoji": "🍗",
+      "foodsentence2": "木须肉配香葱"
+    },
+    {
+      "kana": {
+        "hiragana": "め",
+        "katakana": "メ"
+      },
+      "chinesePronunciationCharacter": "美",
+      "chineseOriginCharacter": "女",
+      "foodsentence1": "美式炸鸡",
+      "emoji": "🍗",
+      "foodsentence2": "美式炸鸡外酥里嫩"
+    },
+    {
+      "kana": {
+        "hiragana": "も",
+        "katakana": "モ"
+      },
+      "chinesePronunciationCharacter": "莫",
+      "chineseOriginCharacter": "毛",
+      "foodsentence1": "莫吉托",
+      "emoji": "🍸",
+      "foodsentence2": "莫吉托加薄荷叶"
+    },
+    {
+      "kana": {
+        "hiragana": "や",
+        "katakana": "ヤ"
+      },
+      "chinesePronunciationCharacter": "亚",
+      "chineseOriginCharacter": "也",
+      "foodsentence1": "亚洲菜",
+      "emoji": "🍱",
+      "foodsentence2": "亚式便当很好吃"
+    },
+    {
+      "kana": {
+        "hiragana": "ゆ",
+        "katakana": "ユ"
+      },
+      "chinesePronunciationCharacter": "余",
+      "chineseOriginCharacter": "由",
+      "foodsentence1": "余粮",
+      "emoji": "🍘",
+      "foodsentence2": "余味让人回味无穷"
+    },
+    {
+      "kana": {
+        "hiragana": "よ",
+        "katakana": "ヨ"
+      },
+      "chinesePronunciationCharacter": "有",
+      "chineseOriginCharacter": "与",
+      "foodsentence1": "有机菜",
+      "emoji": "🍙",
+      "foodsentence2": "有机饭团真香"
+    },
+    {
+      "kana": {
+        "hiragana": "ら",
+        "katakana": "ラ"
+      },
+      "chinesePronunciationCharacter": "拉",
+      "chineseOriginCharacter": "良",
+      "foodsentence1": "拉面",
+      "emoji": "🍜",
+      "foodsentence2": "拉面汤头浓郁"
+    },
+    {
+      "kana": {
+        "hiragana": "り",
+        "katakana": "リ"
+      },
+      "chinesePronunciationCharacter": "里",
+      "chineseOriginCharacter": "利",
+      "foodsentence1": "里脊肉",
+      "emoji": "🥩",
+      "foodsentence2": "里脊肉鲜嫩多汁"
+    },
+    {
+      "kana": {
+        "hiragana": "る",
+        "katakana": "ル"
+      },
+      "chinesePronunciationCharacter": "鲁",
+      "chineseOriginCharacter": "留",
+      "foodsentence1": "鲁菜",
+      "emoji": "🍛",
+      "foodsentence2": "鲁菜味道鲜美"
+    },
+    {
+      "kana": {
+        "hiragana": "れ",
+        "katakana": "レ"
+      },
+      "chinesePronunciationCharacter": "热",
+      "chineseOriginCharacter": "礼",
+      "foodsentence1": "热干面",
+      "emoji": "🍜",
+      "foodsentence2": "热干面麻辣爽口"
+    },
+    {
+      "kana": {
+        "hiragana": "ろ",
+        "katakana": "ロ"
+      },
+      "chinesePronunciationCharacter": "罗",
+      "chineseOriginCharacter": "呂",
+      "foodsentence1": "罗宋汤",
+      "emoji": "🍲",
+      "foodsentence2": "罗宋汤色泽红亮"
+    },
+    {
+      "kana": {
+        "hiragana": "わ",
+        "katakana": "ワ"
+      },
+      "chinesePronunciationCharacter": "娃",
+      "chineseOriginCharacter": "和",
+      "foodsentence1": "娃娃菜汤",
+      "emoji": "🥣",
+      "foodsentence2": "娃娃菜汤鲜嫩可口"
+    },
+    {
+      "kana": {
+        "hiragana": "を",
+        "katakana": "ヲ"
+      },
+      "chinesePronunciationCharacter": "我",
+      "chineseOriginCharacter": "乎",
+      "foodsentence1": "我，想吃饺子",
+      "emoji": "🥟",
+      "foodsentence2": "我爱吃饺子"
+    },
+    {
+      "kana": {
+        "hiragana": "ん",
+        "katakana": "ン"
+      },
+      "chinesePronunciationCharacter": "恩",
+      "chineseOriginCharacter": "無",
+      "foodsentence1": "恩，想吃外卖",
+      "emoji": "🥡",
+      "foodsentence2": "恩，外卖到了"
+    }
+  ]
+}
