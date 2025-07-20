@@ -59,7 +59,7 @@ if ('serviceWorker' in navigator) {
 
       const sakafokanaBtn = document.createElement("button");
       sakafokanaBtn.textContent = "🌶️ サカフカナ  ";
-      sakafokanaBtn.onclick = () => startGame("katakana");
+      sakafokanaBtn.onclick = () => startGame("sakafokana");
         
       buttonContainer.appendChild(hiraganaBtn);
       buttonContainer.appendChild(katakanaBtn);
