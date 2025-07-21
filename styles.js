@@ -46,6 +46,20 @@ const css = `
     margin: 20px 0;
     font-size: 1.5rem;
   }
+   .sound-emoji {
+    font-size: 2rem;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 10px;
+    transition: transform 0.2s ease;
+    user-select: none;
+  }
+  .sound-emoji:hover {
+    transform: scale(1.2);
+  }
+  .sound-emoji:active {
+    transform: scale(0.9);
+  }
   .emoji {
     font-size:10rem;
     display: block;
