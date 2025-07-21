@@ -142,6 +142,34 @@ if ('serviceWorker' in navigator) {
     gameContainer.appendChild(div);
   }
 
+  // New function for Sakafokana mode with speech
+  function renderPromptWithSpeech(emoji, desc, kanaChar) {
+    gameContainer.innerHTML = "";
+    const div = document.createElement("div");
+    div.className = "question";
+    
+    const emojiSpan = document.createElement("span");
+    emojiSpan.className = "emoji";
+    emojiSpan.textContent = emoji;
+    
+    const descSpan = document.createElement("span");
+    descSpan.className = "description";
+    descSpan.textContent = desc;
+    
+    // Add clickable sound emoji
+    const soundEmoji = document.createElement("span");
+    soundEmoji.innerHTML = " 🔊";
+    soundEmoji.className = "sound-emoji";
+    soundEmoji.title = `Écouter la prononciation de ${kanaChar}`;
+    soundEmoji.onclick = () => speakKana(kanaChar);
+    
+    div.appendChild(emojiSpan);
+    div.appendChild(descSpan);
+    div.appendChild(soundEmoji);
+    gameContainer.appendChild(div);
+  }
+
+  
   function renderOptions(options, onClick) {
     const div = document.createElement("div");
     div.className = "options";
