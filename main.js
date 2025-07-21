@@ -111,7 +111,7 @@ if ('serviceWorker' in navigator) {
 
   function showSakaQuestion() {
     if (currentQuestionIndex >= questions.length) {
-      return showPopup("Great job! You've gone through all kana! 🎉", "success");
+      return showPopup("Great job! You've gone through all Sakafokana!  🎉", "success");
     }
     const q = questions[currentQuestionIndex];
     renderPrompt(q.emoji, q.description);
