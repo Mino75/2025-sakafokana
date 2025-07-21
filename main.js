@@ -39,7 +39,7 @@ if ('serviceWorker' in navigator) {
   function startScreen() {
     gameContainer.innerHTML = "";
     const title = document.createElement("h1");
-    title.textContent = "Kana Quiz Training";
+    title.textContent = "🍎SakafoKana Quiz ";
     gameContainer.appendChild(title);
 
     const buttonContainer = document.createElement("div");
