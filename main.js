@@ -39,24 +39,24 @@ if ('serviceWorker' in navigator) {
   function startScreen() {
     gameContainer.innerHTML = "";
     const title = document.createElement("h1");
-    title.textContent = "Kana Quiz Game";
+    title.textContent = "Kana Quiz Training";
     gameContainer.appendChild(title);
 
     const buttonContainer = document.createElement("div");
     buttonContainer.className = "button-container";
 
     const hiraganaBtn = document.createElement("button");
-    hiraganaBtn.textContent = "🍒 ひらがな";
+    hiraganaBtn.textContent = "🍉ひらがな";
     hiraganaBtn.disabled = kanaAssociations.length === 0;
     hiraganaBtn.onclick = () => startGame("hiragana");
 
     const katakanaBtn = document.createElement("button");
-    katakanaBtn.textContent = "🍉 カタカナ";
+    katakanaBtn.textContent = "🌶️カタカナ";
     katakanaBtn.disabled = kanaAssociations.length === 0;
     katakanaBtn.onclick = () => startGame("katakana");
 
     const sakaBtn = document.createElement("button");
-    sakaBtn.textContent = "🌶️ サカフカナ";
+    sakaBtn.textContent = "🍚サカフカナ";
     sakaBtn.disabled = sakaAssociations.length === 0;
     sakaBtn.onclick = () => startGameSakafokana();
 
@@ -76,7 +76,7 @@ if ('serviceWorker' in navigator) {
 
   function showQuestion() {
     if (currentQuestionIndex >= questions.length) {
-      return showPopup("Congratulations! You completed the quiz! 🎉🎊", "success");
+      return showPopup("Congratulations! 🍍 You completed the quiz! 🎉🎊", "success");
     }
     const current = questions[currentQuestionIndex];
     renderPrompt(current.emoji, current.description);
@@ -89,7 +89,7 @@ if ('serviceWorker' in navigator) {
         currentQuestionIndex++;
         showQuestion();
       } else {
-        showPopup("Wrong answer! Try again.", "fail");
+        showPopup("Wrong answer! Correct answer: ${correctWord 😝 Try again.", "fail");
       }
     });
     renderProgress(questions.length);
@@ -111,7 +111,7 @@ if ('serviceWorker' in navigator) {
 
   function showSakaQuestion() {
     if (currentQuestionIndex >= questions.length) {
-      return showPopup("Great job! You've gone through all Sakafokana!  🎉", "success");
+      return showPopup("Great job! 🍧 You've gone through all Sakafokana!  🎉", "success");
     }
     const q = questions[currentQuestionIndex];
     renderPrompt(q.emoji, q.description);
@@ -127,7 +127,7 @@ if ('serviceWorker' in navigator) {
         currentQuestionIndex++;
         showSakaQuestion();
       } else {
-        showPopup("Wrong answer! Try again.", "fail");
+        showPopup("Wrong answer! Right answer: ${q.word} 😅 Try again.", "fail");
       }
     });
     renderProgress(questions.length);
