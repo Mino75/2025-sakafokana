@@ -142,7 +142,7 @@ if ('serviceWorker' in navigator) {
     gameContainer.appendChild(div);
   }
 
-  // New function for Sakafokana mode with speech
+  // function for Sakafokana mode with speech
   function renderPromptWithSpeech(emoji, desc, kanaChar) {
     gameContainer.innerHTML = "";
     const div = document.createElement("div");
@@ -160,15 +160,14 @@ if ('serviceWorker' in navigator) {
     const soundEmoji = document.createElement("span");
     soundEmoji.innerHTML = " 🔊";
     soundEmoji.className = "sound-emoji";
-    soundEmoji.title = `Écouter la prononciation de ${kanaChar}`;
-    soundEmoji.onclick = () => speakKana(kanaChar);
+    soundEmoji.title = `Écouter la prononciation : ${desc}`;
+    soundEmoji.onclick = () => speakChinese(desc);
     
     div.appendChild(emojiSpan);
     div.appendChild(descSpan);
     div.appendChild(soundEmoji);
     gameContainer.appendChild(div);
   }
-
   
   function renderOptions(options, onClick) {
     const div = document.createElement("div");
@@ -226,15 +225,15 @@ if ('serviceWorker' in navigator) {
     pop.appendChild(btn); overlay.appendChild(pop); document.body.appendChild(overlay);
   }
 
-  // Speech synthesis function
-  function speakKana(kanaChar) {
+ // Speech synthesis function
+  function speakChinese(chineseText) {
     if ('speechSynthesis' in window) {
       // Cancel any ongoing speech
       speechSynthesis.cancel();
       
-      const utterance = new SpeechSynthesisUtterance(kanaChar);
-      utterance.lang = 'ja-JP'; // Japanese language
-      utterance.rate = 0.8; // Slightly slower for clarity
+      const utterance = new SpeechSynthesisUtterance(chineseText);
+      utterance.lang = 'zh-CN'; // Chinese language
+      utterance.rate = 0.7; // Slower for clarity
       utterance.pitch = 1;
       utterance.volume = 1;
       
@@ -244,7 +243,6 @@ if ('serviceWorker' in navigator) {
     }
   }
 
-  
   // Load JSON data
   document.addEventListener("DOMContentLoaded", ()=>{
     const p1 = fetch("kana.json").then(r=>r.json()).catch(_=>[]);
