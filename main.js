@@ -89,7 +89,7 @@ if ('serviceWorker' in navigator) {
         currentQuestionIndex++;
         showQuestion();
       } else {
-        showPopup("Wrong answer! Correct answer: ${correctWord 😝 Try again.", "fail");
+        showPopup(`Wrong answer! Correct answer: ${correctWord} 😝 Try again.`, "fail");
       }
     });
     renderProgress(questions.length);
@@ -127,7 +127,7 @@ if ('serviceWorker' in navigator) {
         currentQuestionIndex++;
         showSakaQuestion();
       } else {
-        showPopup("Wrong answer! Right answer: ${q.word} 😅 Try again.", "fail");
+        showPopup(`Wrong answer! Right answer: ${q.word} 😅 Try again.`, "fail");
       }
     });
     renderProgress(questions.length);
