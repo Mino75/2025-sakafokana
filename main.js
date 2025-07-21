@@ -114,7 +114,7 @@ if ('serviceWorker' in navigator) {
       return showPopup("Great job! 🍧 You've gone through all Sakafokana!  🎉", "success");
     }
     const q = questions[currentQuestionIndex];
-    renderPrompt(q.emoji, q.description);
+    renderPromptWithSpeech(q.emoji, q.description, q.word);
     // temporarily set mode for distractors
     const prev = mode;
     mode = q.type;
@@ -198,6 +198,25 @@ if ('serviceWorker' in navigator) {
     pop.appendChild(btn); overlay.appendChild(pop); document.body.appendChild(overlay);
   }
 
+  // Speech synthesis function
+  function speakKana(kanaChar) {
+    if ('speechSynthesis' in window) {
+      // Cancel any ongoing speech
+      speechSynthesis.cancel();
+      
+      const utterance = new SpeechSynthesisUtterance(kanaChar);
+      utterance.lang = 'ja-JP'; // Japanese language
+      utterance.rate = 0.8; // Slightly slower for clarity
+      utterance.pitch = 1;
+      utterance.volume = 1;
+      
+      speechSynthesis.speak(utterance);
+    } else {
+      console.log('Speech synthesis not supported');
+    }
+  }
+
+  
   // Load JSON data
   document.addEventListener("DOMContentLoaded", ()=>{
     const p1 = fetch("kana.json").then(r=>r.json()).catch(_=>[]);
