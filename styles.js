@@ -1,5 +1,5 @@
 // Define preset background colors and pick one randomly
-const backgroundOptions = ['#FFF9C4', '#FFCDD2', '#C8E6C9', '#BBDEFB', '#FFE0B2'];
+const backgroundOptions = ['#FF8F00', '#D32F2F', '#388E3C', '#1976D2', '#7B1FA2'];
 const selectedBackground = backgroundOptions[Math.floor(Math.random() * backgroundOptions.length)];
 
 // Define CSS as a string – dark mode with a theme color included (blue)
