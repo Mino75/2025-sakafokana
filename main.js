@@ -22,9 +22,10 @@ if ('serviceWorker' in navigator) {
 (function () {
     // Global variables for game state
     let kanaAssociations = [];
+    let sakaAssociations = [];
     let kanaListHiragana = [];
     let kanaListKatakana = [];
-    let mode = null; // "hiragana" or "katakana"
+    let mode = null; // "hiragana" or "katakana" or "sakafokana"
     let questions = [];
     let currentQuestionIndex = 0;
     let correctCount = 0;
@@ -51,15 +52,18 @@ if ('serviceWorker' in navigator) {
   
       const hiraganaBtn = document.createElement("button");
       hiraganaBtn.textContent = "🍒 ひらがな";
+      hiraganaBtn.disabled = kanaAssociations.length === 0;
       hiraganaBtn.onclick = () => startGame("hiragana");
   
       const katakanaBtn = document.createElement("button");
       katakanaBtn.textContent = "🍉 カタカナ  ";
+      katakanaBtn.disabled = kanaAssociations.length === 0;
       katakanaBtn.onclick = () => startGame("katakana");
 
       const sakafokanaBtn = document.createElement("button");
       sakafokanaBtn.textContent = "🌶️ サカフカナ  ";
-      sakafokanaBtn.onclick = () => startGame("sakafokana");
+      sakafokanaBtn.disabled = sakaAssociations.length === 0;
+      sakafokanaBtn.onclick = () => startGameSakafokana();
         
       buttonContainer.appendChild(hiraganaBtn);
       buttonContainer.appendChild(katakanaBtn);
@@ -77,7 +81,56 @@ if ('serviceWorker' in navigator) {
       shuffleArray(questions);
       showQuestion();
     }
-  
+
+    //  startGameSakafokana for sakafokana.json
+    function startGameSakafokana() {
+      mode = "sakafokana";
+      correctCount = 0;
+      currentQuestionIndex = 0;
+      // Build combined questions
+      const flat = [];
+      sakaAssociations.forEach(entry => {
+        flat.push({ type: "hiragana",  word: entry.kana.hiragana, emoji: entry.emoji, description: entry.foodsentence1 });
+        flat.push({ type: "katakana",  word: entry.kana.katakana, emoji: entry.emoji, description: entry.foodsentence2 });
+      });
+      questions = flat;
+      shuffleArray(questions);
+      showSakaQuestion();
+    }
+
+// Show question for sakafokana mode
+    function showSakaQuestion() {
+      if (currentQuestionIndex >= questions.length) {
+        showPopup("Great job! You've gone through all kana! 🎉", "success");
+        return;
+      }
+      const q = questions[currentQuestionIndex];
+      gameContainer.innerHTML = "";
+      const questionDiv = document.createElement("div");
+      questionDiv.className = "question";
+      questionDiv.innerHTML = `
+        <span class="emoji">${q.emoji}</span>
+        <span class="description">${q.description}</span>
+      `;
+      gameContainer.appendChild(questionDiv);
+      // generate options with correct list
+      const prevMode = mode;
+      mode = q.type;
+      let opts = generateOptions(q.word);
+      mode = prevMode;
+      shuffleArray(opts);
+      renderOptions(opts, answer => {
+        if (answer === q.word) {
+          correctCount++;
+          currentQuestionIndex++;
+          showSakaQuestion();
+        } else {
+          showPopup("Wrong answer! Try again.", "fail");
+        }
+      });
+      renderProgress();
+    }
+    
     // Display a question with its answer options
     function showQuestion() {
       if (currentQuestionIndex >= questions.length) {
@@ -195,30 +248,26 @@ if ('serviceWorker' in navigator) {
       document.body.appendChild(overlay);
     }
   
-    // Load kana data from kana.json, build kana lists, then initialize the game
+    // Load both JSON files, handle errors independently
     document.addEventListener("DOMContentLoaded", () => {
-      fetch("kana.json")
-        .then(response => response.json())
-        .then(data => {
-          kanaAssociations = data.kanaAssociations;
-          // Build the kana lists from the loaded data
-          const hiraganaSet = new Set();
-          const katakanaSet = new Set();
-          kanaAssociations.forEach(entry => {
-            if (entry.kana && entry.kana.hiragana) {
-              hiraganaSet.add(entry.kana.hiragana);
-            }
-            if (entry.kana && entry.kana.katakana) {
-              katakanaSet.add(entry.kana.katakana);
-            }
-          });
-          kanaListHiragana = Array.from(hiraganaSet);
-          kanaListKatakana = Array.from(katakanaSet);
-          startScreen();
-        })
-        .catch(err => {
-          console.error("Error loading kana data:", err);
-          gameContainer.innerHTML = "<p>Error loading game data.</p>";
-        });
+      const pKana = fetch("kana.json").then(r => r.json()).catch(err => {
+        console.error("Failed loading kana.json:", err);
+        kanaAssociations = []; return [];
+      });
+      const pSaka = fetch("sakafokana.json").then(r => r.json()).catch(err => {
+        console.error("Failed loading sakafokana.json:", err);
+        sakaAssociations = []; return { kanaEntries: [] };
+      });
+      Promise.all([pKana, pSaka]).then(([kanaData, sakaData]) => {
+        kanaAssociations = kanaData.kanaAssociations || kanaData;
+        const h = new Set(), k = new Set();
+        kanaAssociations.forEach(e => { h.add(e.kana.hiragana); k.add(e.kana.katakana); });
+        kanaListHiragana = Array.from(h);
+        kanaListKatakana = Array.from(k);
+        sakaAssociations = sakaData.kanaEntries;
+        startScreen();
+      });
+
+        
     });
 })();
