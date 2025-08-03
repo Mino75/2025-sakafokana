@@ -81,8 +81,14 @@ if ('serviceWorker' in navigator) {
       // Old version detected - unregister and reload
       console.log('Cache lock detected - rescuing to ${CACHE_VERSION}...');
       navigator.serviceWorker.getRegistration().then(reg => {
-        if (reg) reg.unregister().then(() => location.reload());
-      });
+          if (reg) {
+            reg.unregister().then(() => location.reload());
+          } else {
+            location.reload(); // ← This handles missing SW
+          }
+        }).catch(() => {
+          location.reload(); // ← This handles SW errors
+        });
       return; // Stop here for old version users
     }
     
