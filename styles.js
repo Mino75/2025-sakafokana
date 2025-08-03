@@ -26,7 +26,7 @@ const css = `
     padding: 10px 20px;
     margin: 10px;
     border-radius: 5px;
-    font-size: 1.25rem;
+    font-size: 2rem;
   }
   button:hover {
     background-color: #1565c0;
