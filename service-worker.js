@@ -70,10 +70,10 @@ const ASSETS = [
   '/',
   '/index.html',
   '/main.js',
-  '/db.js',
-  '/style.js',
+  '/styles.js',
   '/manifest.json',
   '/kana.json',
+  '/sakafokana.json',
   '/icon-512.png',
   '/icon-192.png',
   '/favicon.ico'
