@@ -1,5 +1,5 @@
 // service-worker.js
-// service-worker.js - ROBUST VERSION FOR FARITANY
+
 /**
  *  CACHE STRATEGY REQUIREMENTS
  * ===================================
