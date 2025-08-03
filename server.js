@@ -89,7 +89,7 @@ if ('serviceWorker' in navigator) {
         }).catch(() => {
           location.reload(); // ← This handles SW errors
         });
-      return; // Stop here for old version users
+      //return; 
     }
     
     // Current version users or new users - normal service worker registration
