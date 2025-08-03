@@ -63,6 +63,15 @@ const CONFIG = {
   ENABLE_LOGS: self.SW_ENABLE_LOGS !== 'false' // true by default, false if set to 'false'
 };
 
+// Extract app name from current cache name dynamically
+function getAppPrefix(cacheName) {
+  // Extract everything before the first hyphen
+  // 'sakafokana-v2' → 'sakafokana'
+  // 'dia-v1' → 'dia'
+  // 'faritany-temp-v3' → 'faritany'
+  return cacheName.split('-')[0];
+}
+
 const LIVE_CACHE = CONFIG.CACHE_NAME;
 const TEMP_CACHE = CONFIG.TEMP_CACHE_NAME;
 
@@ -139,8 +148,9 @@ self.addEventListener('activate', event => {
 
         // Clean up old version caches
         const allCacheNames = await caches.keys();
+        const currentAppPrefix = getAppPrefix(LIVE_CACHE); // Extract 'sakafokana' dynamically
         const oldCaches = allCacheNames.filter(cacheName => 
-          cacheName.startsWith('faritany-') && 
+          cacheName.startsWith(currentAppPrefix + '-') &&  // Dynamic prefix!
           cacheName !== LIVE_CACHE && 
           cacheName !== TEMP_CACHE
         );
