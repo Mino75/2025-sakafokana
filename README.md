@@ -12,7 +12,7 @@
 - [📄 License](#-license)
 
 ## 📖 About
-SakafoKana is an educational Progressive Web App for learning Japanese Kana (Hiragana and Katakana) through food-related vocabulary. The app combines language learning with cultural education, featuring speech synthesis for pronunciation practice and interactive quizzes to reinforce learning.
+SakafoKana ( sakafo = food/meal in MG and kana from JP) is an educational Progressive Web App for learning Japanese Kana (Hiragana and Katakana) through food-related vocabulary. The app combines language learning with cultural education, featuring speech synthesis for pronunciation practice and interactive quizzes to reinforce learning.
 
 ## 🚀 Getting Started
 
