@@ -83,6 +83,7 @@ const ASSETS = [
   '/manifest.json',
   '/kana.json',
   '/sakafokana.json',
+  '/kanjimachiro.json',
   '/icon-512.png',
   '/icon-192.png',
   '/favicon.ico'
