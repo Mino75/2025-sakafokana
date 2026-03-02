@@ -174,7 +174,7 @@
 
     // Prompt: emoji + FR + meta (strokes + pinyin)
     renderPrompt(
-      "🀄",
+      q.emoji || "🀄",
       `${q.fr} — ${q.strokeCount} trait${q.strokeCount > 1 ? "s" : ""} — ${q.pinyin}`
     );
 
@@ -336,7 +336,8 @@
         strokeCount: e.strokeCount,
         pinyin: e.pinyin,
         fr: e.fr,
-        display: e.display
+        display: e.display,
+        emoji: e.emoji
       }));
 
       kanjimachiroPool = kanjimachiroEntries.map(e => e.display);
