@@ -26,7 +26,7 @@ const css = `
     padding: 10px 20px;
     margin: 10px;
     border-radius: 5px;
-    font-size: 2rem;
+    font-size: clamp(1.2rem, 4vw, 2rem);
   }
   button:hover {
     background-color: #1565c0;
@@ -34,9 +34,23 @@ const css = `
   }
   .button-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 12px;
   }
+
+  .button-container button {
+    width: calc(50% - 6px);
+    margin: 0;
+    font-size: 1.4rem;
+    padding: 14px 10px;
+    box-sizing: border-box;
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
   .options button {
     display: block;
     width: 80%;
